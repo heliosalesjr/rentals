@@ -1,3 +1,4 @@
+'use client'
 import "../assets/globals.css"
 import {Hero} from '@/components/Hero';
 import {InfoBoxes} from "@/components/InfoBoxes";
