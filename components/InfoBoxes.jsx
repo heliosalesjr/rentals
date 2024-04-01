@@ -1,5 +1,4 @@
-'use client'
-import { InfoBox } from './InfoBox';
+import InfoBox from './InfoBox';
 
 const InfoBoxes = () => {
   return (
@@ -12,7 +11,7 @@ const InfoBoxes = () => {
             buttonInfo={{
               text: 'Browse Properties',
               link: '/properties',
-              backgroundColor: 'bg-slate-900',
+              backgroundColor: 'bg-slate-800',
             }}
           >
             Find your dream rental property. Bookmark properties and contact

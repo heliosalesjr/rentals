@@ -1,14 +1,15 @@
-'use client'
-import "../assets/globals.css"
+
 import {Hero} from '@/components/Hero';
-import {InfoBoxes} from "@/components/InfoBoxes";
+import InfoBoxes from '@/components/InfoBoxes'
 
 
-export default function Home() {
+const HomePage = () => {
   return (
     <>
       <Hero />
       <InfoBoxes />
+      
     </>
   );
-}
+};
+export default HomePage;
